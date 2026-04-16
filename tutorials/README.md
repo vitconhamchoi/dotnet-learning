@@ -1,6 +1,6 @@
 # Distributed .NET Tutorials
 
-Bộ tài liệu này gồm **20 tutorial chuyên sâu** từ cơ bản đến nâng cao, đào tạo senior engineer xây dựng distributed application toàn diện với khả năng scale cho hàng tỉ người dùng.
+Bộ tài liệu này gồm **21 tutorial chuyên sâu** từ cơ bản đến nâng cao, đào tạo senior engineer xây dựng distributed application toàn diện với khả năng scale cho hàng tỉ người dùng.
 
 ## 🟢 Phần 1: Nền tảng (Bài 1–7)
 
@@ -73,3 +73,6 @@ Mỗi bài được viết theo hướng thực chiến:
 - `18-grpc-dotnet-tutorial.md`
 - `19-performance-engineering-tutorial.md`
 - `20-system-design-at-scale-tutorial.md`
+
+### Phần 4 – Công Nghệ Mới Nhất (.NET 10 / C# 14)
+- `21-latest-dotnet-technologies-integration-guide.md` — Hướng dẫn tích hợp 9 công nghệ mới nhất: C# 14, OpenAPI 3.1, SSE, HybridCache, Native AOT, Blazor 10, Passkey Auth, Microsoft.Extensions.AI, .NET Aspire
