@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="01-BasicChatAgent/01-BasicChatAgent.csproj" />
+  <Project Path="02-AgentWithPlugins/02-AgentWithPlugins.csproj" />
+  <Project Path="03-AgentGroupChat/03-AgentGroupChat.csproj" />
+</Solution>
