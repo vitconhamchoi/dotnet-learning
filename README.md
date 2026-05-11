@@ -12,7 +12,7 @@ Kho tài nguyên học .NET chuyên sâu, tập trung vào **distributed systems
 - 🖥️ **Web Frontend** — Blazor (WebAssembly & Server)
 - 📱 **Mobile & Desktop** — .NET MAUI, WPF, WinForms
 - ☁️ **Cloud & Microservices** — Azure, Kubernetes, Dapr, .NET Aspire
-- 🤖 **AI & ML** — Semantic Kernel, ML.NET, Microsoft.Extensions.AI
+- 🤖 **AI & ML** — Microsoft Agent Framework, ML.NET, Microsoft.Extensions.AI
 - ⚡ **Real-time** — SignalR, gRPC Streaming, Server-Sent Events
 
 ### Tại sao chọn .NET?
@@ -24,7 +24,7 @@ Kho tài nguyên học .NET chuyên sâu, tập trung vào **distributed systems
 | **Hệ sinh thái phong phú** | NuGet với hàng triệu package; tích hợp tốt với Azure, AWS, GCP |
 | **Ngôn ngữ mạnh** | C# — một trong những ngôn ngữ type-safe, expressive hàng đầu |
 | **Cộng đồng lớn** | Được Microsoft bảo trợ, LTS release định kỳ, roadmap công khai |
-| **AI-ready** | Tích hợp sẵn Microsoft.Extensions.AI, Semantic Kernel |
+| **AI-ready** | Tích hợp sẵn Microsoft.Extensions.AI, Microsoft Agent Framework |
 
 ---
 
@@ -34,7 +34,7 @@ Kho tài nguyên học .NET chuyên sâu, tập trung vào **distributed systems
 dotnet-learning/
 ├── tutorials/          # 21 tutorial chuyên sâu về distributed .NET
 ├── samples/            # Code mẫu chạy được
-│   └── SemanticKernelAgents/   # AI Agent với Semantic Kernel
+│   └── MicrosoftAgentFramework/   # AI Agent với Microsoft Agent Framework
 ├── dotnet-distributed-apps-report.md      # Báo cáo tổng quan distributed apps
 └── microsoft-agent-framework-detailed-guide.md  # Hướng dẫn AI Agent framework
 ```
@@ -96,15 +96,15 @@ Kỹ năng vận hành hệ thống production ở quy mô lớn:
 
 ## 🧪 Samples — Code Mẫu Chạy Được
 
-### Semantic Kernel Agents
+### Microsoft Agent Framework
 
-Bộ mẫu minh hoạ cách xây dựng AI Agent với [Semantic Kernel](https://github.com/microsoft/semantic-kernel):
+Bộ mẫu minh hoạ cách xây dựng AI Agent với [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) — framework thế hệ mới, thay thế Semantic Kernel Agents và AutoGen:
 
 | Mẫu | Mô tả |
 |---|---|
-| [01 — Basic Chat Agent](samples/SemanticKernelAgents/01-BasicChatAgent) | Agent chat đơn giản với memory và context |
-| [02 — Agent with Plugins](samples/SemanticKernelAgents/02-AgentWithPlugins) | Agent tích hợp plugin tự định nghĩa |
-| [03 — Agent Group Chat](samples/SemanticKernelAgents/03-AgentGroupChat) | Nhiều agent cộng tác giải quyết task phức tạp |
+| [01 — Basic Agent](samples/MicrosoftAgentFramework/01-BasicAgent) | Agent chat đơn giản với `AgentSession` cho multi-turn conversation |
+| [02 — Agent with Tools](samples/MicrosoftAgentFramework/02-AgentWithTools) | Agent tích hợp tools qua `AIFunctionFactory` (chuẩn `Microsoft.Extensions.AI`) |
+| [03 — Multi-Agent Sequential Workflow](samples/MicrosoftAgentFramework/03-WriterCriticWorkflow) | Workflow nhiều agent (Planner → Executor → Reviewer) với `AgentWorkflowBuilder` |
 
 ---
 
@@ -121,7 +121,7 @@ Chuẩn bị cho production?
   └─▶ Bài 14 (Resilience) → Bài 15 (Observability) → Bài 17 (Kubernetes) → Bài 19 (Performance)
 
 Khám phá AI với .NET?
-  └─▶ samples/SemanticKernelAgents → Bài 21 (Latest .NET Tech)
+  └─▶ samples/MicrosoftAgentFramework → Bài 21 (Latest .NET Tech)
 ```
 
 ---
@@ -139,7 +139,8 @@ Khám phá AI với .NET?
 - [Tài liệu chính thức .NET](https://docs.microsoft.com/dotnet)
 - [ASP.NET Core Documentation](https://docs.microsoft.com/aspnet/core)
 - [.NET Architecture Guides](https://dotnet.microsoft.com/learn/dotnet/architecture-guides)
-- [Semantic Kernel Documentation](https://learn.microsoft.com/semantic-kernel)
+- [Microsoft Agent Framework Documentation](https://learn.microsoft.com/en-us/agent-framework)
+- [Microsoft Agent Framework GitHub](https://github.com/microsoft/agent-framework)
 - [.NET Aspire Documentation](https://learn.microsoft.com/dotnet/aspire)
 
 ---

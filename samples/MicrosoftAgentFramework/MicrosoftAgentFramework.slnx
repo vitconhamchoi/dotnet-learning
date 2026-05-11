@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="01-BasicAgent/01-BasicAgent.csproj" />
+  <Project Path="02-AgentWithTools/02-AgentWithTools.csproj" />
+  <Project Path="03-WriterCriticWorkflow/03-WriterCriticWorkflow.csproj" />
+</Solution>

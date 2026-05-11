@@ -1,0 +1,95 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/runner/work/dotnet-learning/dotnet-learning/samples/MicrosoftAgentFramework/01-BasicAgent/01-BasicAgent.csproj": {}
+  },
+  "projects": {
+    "/home/runner/work/dotnet-learning/dotnet-learning/samples/MicrosoftAgentFramework/01-BasicAgent/01-BasicAgent.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/runner/work/dotnet-learning/dotnet-learning/samples/MicrosoftAgentFramework/01-BasicAgent/01-BasicAgent.csproj",
+        "projectName": "01-BasicAgent",
+        "projectPath": "/home/runner/work/dotnet-learning/dotnet-learning/samples/MicrosoftAgentFramework/01-BasicAgent/01-BasicAgent.csproj",
+        "packagesPath": "/tmp/codeql-scratch-01259f31fee1311e/dbs/csharp/working/packages",
+        "outputPath": "/home/runner/work/dotnet-learning/dotnet-learning/samples/MicrosoftAgentFramework/01-BasicAgent/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/runner/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net10.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net10.0": {
+            "targetAlias": "net10.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "10.0.200"
+      },
+      "frameworks": {
+        "net10.0": {
+          "targetAlias": "net10.0",
+          "dependencies": {
+            "Azure.AI.OpenAI": {
+              "target": "Package",
+              "version": "[2.2.0-beta.4, )"
+            },
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.13.2, )"
+            },
+            "Microsoft.Agents.AI.OpenAI": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[10.0.5, 10.0.5]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[10.0.5, 10.0.5]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[10.0.5, 10.0.5]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
